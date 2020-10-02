@@ -114,6 +114,7 @@ html {
   width: 255px;
   height: 322px;
   margin-bottom: 30px;
+  transition: all .2s ease-in-out;
 }
 
 .products-list-item img {
@@ -155,6 +156,9 @@ html {
   background-color: #7fd9c7;
 }
 
+.products-list-item:hover {
+  transform: scale(1.1);
+}
 /*section2*/
 
 .news-block {
